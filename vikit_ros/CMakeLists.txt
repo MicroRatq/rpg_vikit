@@ -20,6 +20,7 @@ find_package(tf2_ros REQUIRED)
 find_package(eigen3_cmake_module REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(Eigen3 REQUIRED)
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../cmake")
 find_package(Sophus REQUIRED)
 
 # Include directories
